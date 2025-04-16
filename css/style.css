@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body {
+    background-color: rgb(233, 213, 219);
+    line-height: 1.5;
+    margin: 1px;
+    
+}
+rgb(197, 149, 165)
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+    
+    
+}
+
+.navbar {
+    background:brown;
+    height: 65px;
+    color: #fff;
+    padding: 40px 1px;
+    margin: auto;
+    border-top-left-radius: 12px;
+    
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    
+}
+
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
+    margin-right: 30px;
+    margin-left: 30px;
+    
+
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+
+.navbar a:hover {
+    color: coral;
+}
+
+.hero {
+    background-color:  rgb(243, 213, 221);
+    color: #333;
+    min-height: 400px;
+    
+}
+
+.hero h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    
+}
+
+
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 40px;
+    margin-bottom: ;
+}
+
+
+.container .cta {
+    
+    /* padding: 10px 15px; */
+    background: brown;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    ma
+
+}
+
+.cta .btn{
+    color: #fff;
+    background: brown;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 200;
+    border-radius: 5px;
+    margin: 0px 40px;
+    /* text-align: right; */
+}
+
+
+
+h2 {
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.menu .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 200px; */
+}
+
+.menu img {
+    
+}
+
+
+.box {
+    
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    color: #333;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+    
+   
+}
+
+
+.box {
+    /* margin-right: 10px; */
+} 
+
+.about {
+    background-color: rgb(185, 164, 171);
+    padding: 40px 0;
+}
+
+.about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    
+    
+}
+
+.about img {
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 60px 10px; ;
+    
+}
+
+.about .container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+
+.contact .container {
+    
+    
+}
+
+.contact {
+    background-color: rgb(243, 213, 221);
+    justify-items: center;
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(209, 194, 199);
+    margin:  auto;   
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 8px;
+    
+}
+
+.contact input {
+    width: 200%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact  textarea {
+    height: 100px;
+    width:200%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+
+}
+
+
+.contact button {
+    background-color: brown;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200%;
+}
+
+.contact button:hover {
+    background-color: black;
+}
+
+footer {
+    text-align:center;
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    /* margin-top: 20px; */
+    border-bottom-left-radius: 12px;
+}
+
+@media (max-width: 768px) {
+
+    .hero .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .navbar .container{
+        /* flex-direction: column; */
+        text-align: center;
+    }
+    
+    .menu .container {
+        display: block;
+        text-align: center;
+    }
+
+    .about .container {
+        flex-direction: column;
+    }
+
+    .contact  {
+        flex-direction: column;
+        
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center
+    }
+
+
+}
