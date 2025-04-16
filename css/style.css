@@ -96,7 +96,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     margin: 0px 40px;
-    margin-bottom: ;
+    min-height:500px
 }
 
 
@@ -136,7 +136,7 @@ h2 {
     margin: 20px;
     justify-content: center;
     align-items: center;
-    /* min-height: 200px; */
+    min-height: 400px;
 }
 
 .menu img {
@@ -185,6 +185,7 @@ h2 {
     align-items: center;
     justify-content: space-between;
     line-height: 1.5;
+    min-height: 400px
 }
 
 .contact .container {
