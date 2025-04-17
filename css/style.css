@@ -125,14 +125,6 @@ ul {
 }
 
 
-
-h2 {
-    text-align: center;
-    padding: 40px;
-    margin-bottom: 10px;
-    
-}
-
 .container .people{
     
     padding: 40px;
@@ -149,7 +141,10 @@ h2 {
     min-height: 400px;
 }
 
-.menu img {
+.head h2 {
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 10px;
     
 }
 
