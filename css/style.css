@@ -166,6 +166,7 @@ h2 {
 .about {
     background-color: rgb(185, 164, 171);
     padding: 40px 0;
+    
 }
 
 .about h2 {
@@ -185,6 +186,7 @@ h2 {
     justify-content: space-between;
     line-height: 1.5;
     min-height: 400px
+    margin: 0px 40px;
 }
 
 .contact .container {
