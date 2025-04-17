@@ -175,8 +175,8 @@ h2 {
     
     
 }
-.about img{
-     border-radius: 10px;
+.about .img{
+     border-radius: 20px;
 
     
     
@@ -185,7 +185,8 @@ h2 {
 .about .container  {
     display: flex;
     align-items: center;
-    
+    justify-content: space-around;
+
     line-height: 1.5;
     min-height: 400px
     margin: 0px 40px;
