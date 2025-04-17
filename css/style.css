@@ -126,10 +126,11 @@ ul {
 
 
 
-.menu h2 {
+.menu .h2 {
     text-align: center;
     padding: 40px;
     margin-bottom: 10px;
+    
 }
 
 .menu .container {
@@ -186,9 +187,9 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
     line-height: 1.5;
-    min-height: 400px
+    min-height: 800px
     margin: 0px 40px;
 }
 
