@@ -165,7 +165,7 @@ h2 {
 
 .about {
     background-color: rgb(185, 164, 171);
-    padding: 40px 0;
+/*     padding: 40px 0; */
     
 }
 
@@ -175,6 +175,8 @@ h2 {
     
     
 }
+.about img{
+     border-radius: 10px;
 
     
     
@@ -183,7 +185,7 @@ h2 {
 .about .container  {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
     line-height: 1.5;
     min-height: 400px
     margin: 0px 40px;
